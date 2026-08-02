@@ -1,7 +1,28 @@
 aid: takelessons
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/takelessons.png
 name: TakeLessons
-description: TakeLessons is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TakeLessons was an online and in-person lessons marketplace founded in 2007 by
+  Steven Cox and headquartered in San Diego, California. It connected students
+  with independent instructors for music, languages, academic subjects, cooking,
+  and professional training, handling scheduling, payments, and instructor
+  discovery. Microsoft acquired TakeLessons in September 2021 to expand its
+  edtech offerings, then wound the service down: the last day to book lessons was
+  August 15, 2024 and the consumer site closed on November 15, 2024. The company
+  is now defunct and publishes no live website, developer portal, or API surface;
+  this record is retained as a portfolio-lineage stub for the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/takelessons/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,31 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: >-
+  Acquired by Microsoft (2021); consumer service shut down 2024-11-15. Domain
+  takelessons.com retains Azure DNS nameservers but resolves no live A record;
+  no API, developer portal, or well-known surface exists.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- Tutoring
+- Online Learning
+- Music Lessons
+- Marketplace
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
