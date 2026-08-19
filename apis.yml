@@ -35,7 +35,7 @@ x-status-detail: >-
   Acquired by Microsoft (2021); consumer service shut down 2024-11-15. Domain
   takelessons.com retains Azure DNS nameservers but resolves no live A record;
   no API, developer portal, or well-known surface exists.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
